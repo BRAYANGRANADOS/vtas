@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+marquee{
+    position: absolute;
+    width: 100%;
+    color: red;
+    font-size: 35pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    padding-left: 3rem;
+    background-color: antiquewhite;
+    width: 75%;
+    height: 53.7rem;
+    display: grid;
+    grid-template-areas:'head' ;
+}
+
+.item{
+    background-color:  antiquewhite;
+    height: 10rem;
+}
+
+.item1{
+background-color: antiquewhite;    
+height: 7rem;    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1.15rem;
+}
+
+.borde_bajo{
+    width: 9.5rem;
+    border-bottom: solid 0.14rem;
+    text-align: center;
+    font-size: 35pt;
+}
+
+.item2{
+    height: 2.5rem;
+  background-color: #171B4F ;
+  border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pal{
+    color: aliceblue;
+    margin: 1.9rem;
+}
+
+.item3{
+    height: 14rem;
+    margin: 0;
+    display: flex;
+}
+.parrafo1{
+    font-size: 4rem;
+    position: absolute;
+    color: black;
+   padding-top: 2.5%;
+   padding-left: 5%;
+}
+.parrafo2{
+    font-size: 2rem;
+    position: absolute;
+    color: black;
+    padding-top: 7.5%;
+    padding-left: 5%;
+}
+.imagen1{
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.item4{
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    height: 12rem;
+    background-color: antiquewhite;
+}
+
+.soll{
+    background-color: aliceblue;
+    width: 24rem;
+    height: 12rem;
+    border: solid black;
+}
+.atras{
+    width: 5rem;
+}
+.item5{
+    display: flex;
+    justify-content: space-evenly;
+   height: 2rem;
+}
+
+.bord{
+    border-top: solid 0.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.bol{
+    font-size: 1.5rem;
+    margin: 0.7rem;
+}
